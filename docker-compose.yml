@@ -1,9 +1,9 @@
 ---
-version: "3.4"
+version: "0.1.2"
 
 services:
   app:
-    image: ghcr.io/hargata/lubelogger:latest
+    image: ghcr.io/polevoy925/towing:latest
     build: .
     restart: unless-stopped
     # volumes used to keep data persistent
